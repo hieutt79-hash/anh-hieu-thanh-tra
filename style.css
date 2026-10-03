@@ -1,0 +1,52 @@
+:root{
+  --bg:#f6fbff; --card:#ffffff; --ink:#12263a; --muted:#52667a;
+  --blue:#1e7bf2; --blue-d:#135fc4; --sky:#e3f1ff; --sun:#ffb81c; --sun-l:#fff4d6;
+  --line:#dbe8f4; --r:20px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.7;font-size:18px}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+nav{position:sticky;top:0;z-index:20;background:rgba(246,251,255,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:62px}
+.logo{font-weight:800;font-size:18px}
+.logo b{color:var(--blue)}
+nav ul{display:flex;gap:26px;list-style:none;font-size:15px;color:var(--muted)}
+nav ul a:hover{color:var(--blue)}
+.btn{display:inline-block;background:var(--blue);color:#fff;font-weight:700;padding:14px 26px;border-radius:999px;box-shadow:0 8px 20px rgba(30,123,242,.28);transition:.2s}
+.btn:hover{background:var(--blue-d);transform:translateY(-2px)}
+.btn.sun{background:var(--sun);color:#3b2a00;box-shadow:0 8px 20px rgba(255,184,28,.35)}
+nav .btn{padding:9px 20px;font-size:15px}
+.eyebrow{color:var(--blue);font-weight:800;font-size:14px;letter-spacing:1.5px;text-transform:uppercase}
+/* danh sach bai */
+.blog-head{padding:56px 0 20px}
+.blog-head h1{font-size:clamp(30px,4.6vw,46px);line-height:1.15;font-weight:800;margin:8px 0 10px}
+.blog-head p{color:var(--muted);max-width:620px}
+.posts{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin:30px 0 70px}
+.post-card{display:block;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:26px;transition:.2s}
+.post-card:hover{transform:translateY(-4px);box-shadow:0 16px 36px rgba(30,80,140,.12)}
+.post-card .meta{font-size:13px;color:var(--muted);margin-bottom:8px}
+.post-card .chip{display:inline-block;background:var(--sun-l);color:#7a5500;font-weight:700;font-size:12px;padding:3px 10px;border-radius:999px;margin-right:6px}
+.post-card h3{font-size:20px;line-height:1.35;margin-bottom:8px}
+.post-card p{color:var(--muted);font-size:15.5px;line-height:1.6}
+/* bai viet */
+article{max-width:740px;margin:0 auto;padding:48px 20px 30px}
+article .meta{color:var(--muted);font-size:15px;margin:10px 0 26px}
+article h1{font-size:clamp(28px,4.4vw,42px);line-height:1.2;font-weight:800;letter-spacing:-.3px}
+article h2{font-size:26px;line-height:1.3;margin:34px 0 10px}
+article h3{font-size:20px;margin:24px 0 8px}
+article p{margin-bottom:16px;color:#2c4156}
+article ul,article ol{margin:0 0 16px 24px;color:#2c4156}
+article li{margin-bottom:6px}
+article .note{background:var(--sun-l);border-left:5px solid var(--sun);padding:16px 20px;border-radius:0 14px 14px 0;margin:22px 0;font-weight:600}
+.author{display:flex;gap:14px;align-items:center;max-width:740px;margin:10px auto 0;padding:22px 20px;border-top:1px solid var(--line)}
+.author img{width:60px;height:60px;border-radius:50%;object-fit:cover;object-position:50% 25%}
+.author small{display:block;color:var(--muted)}
+.back{display:inline-block;max-width:740px;margin:0 auto;color:var(--blue);font-weight:700;font-size:15px}
+.cta-end{max-width:740px;margin:10px auto 70px;padding:0 20px}
+.cta-end div{background:linear-gradient(135deg,#1e7bf2,#52a8ff);color:#fff;border-radius:24px;padding:30px;text-align:center}
+.cta-end p{margin-bottom:16px;font-weight:700;font-size:19px}
+footer{padding:28px 0 40px;text-align:center;color:var(--muted);font-size:14px}
+footer p{max-width:720px;margin:6px auto}
+@media(max-width:860px){nav ul{display:none}.posts{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){body{font-size:17px}.posts{grid-template-columns:1fr}.btn{width:100%;text-align:center}}

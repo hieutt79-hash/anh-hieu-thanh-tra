@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Anh Hiếu Thanh Tra - Đồng hành giúp bạn làm đúng luật</title>
+<meta name="description" content="Trần Trung Hiếu, thanh tra viên hơn 22 năm giải quyết khiếu nại, tố cáo. Hướng dẫn công dân soạn đơn đúng luật, kiểm tra căn cứ pháp lý, hoàn thiện hồ sơ gọn gàng.">
+<meta property="og:title" content="Anh Hiếu Thanh Tra - Thanh tra là tai mắt của trên, là người bạn của dưới">
+<meta property="og:description" content="22 năm giải quyết khiếu nại, tố cáo. Giúp bạn soạn đơn đúng luật, đúng quy trình.">
+<meta property="og:image" content="hieu.jpg">
+<style>
+:root{
+  --bg:#f6fbff; --card:#ffffff; --ink:#12263a; --muted:#52667a;
+  --blue:#1e7bf2; --blue-d:#135fc4; --sky:#e3f1ff; --sun:#ffb81c; --sun-l:#fff4d6;
+  --mint:#e4f8ee; --line:#dbe8f4; --r:20px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:"Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.65;font-size:17px}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+/* nav */
+nav{position:sticky;top:0;z-index:20;background:rgba(246,251,255,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:62px}
+.logo{font-weight:800;font-size:18px}
+.logo b{color:var(--blue)}
+nav ul{display:flex;gap:26px;list-style:none;font-size:15px;color:var(--muted)}
+nav ul a:hover{color:var(--blue)}
+.btn{display:inline-block;background:var(--blue);color:#fff;font-weight:700;padding:14px 26px;border-radius:999px;box-shadow:0 8px 20px rgba(30,123,242,.28);transition:.2s;border:0;cursor:pointer;font-size:16px}
+.btn:hover{background:var(--blue-d);transform:translateY(-2px)}
+.btn.sun{background:var(--sun);color:#3b2a00;box-shadow:0 8px 20px rgba(255,184,28,.35)}
+.btn.sun:hover{background:#f5a900}
+.btn.ghost{background:#fff;color:var(--blue);border:2px solid var(--blue);box-shadow:none}
+nav .btn{padding:9px 20px;font-size:15px}
+/* hero */
+.hero{padding:56px 0 70px;background:radial-gradient(900px 400px at 85% 0,#d6ebff 0,transparent 60%),radial-gradient(600px 300px at 0 100%,#fff0c4 0,transparent 60%)}
+.hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:center}
+.tag{display:inline-block;background:var(--sun-l);color:#7a5500;font-weight:700;font-size:14px;padding:6px 14px;border-radius:999px;margin-bottom:18px}
+h1{font-size:clamp(34px,5.2vw,56px);line-height:1.12;letter-spacing:-.5px;font-weight:800}
+h1 span{color:var(--blue)}
+.lead{font-size:19px;color:var(--muted);margin:20px 0 28px;max-width:560px}
+.cta{display:flex;gap:14px;flex-wrap:wrap}
+.stats{display:flex;gap:30px;margin-top:34px;flex-wrap:wrap}
+.stats div b{display:block;font-size:30px;color:var(--blue);line-height:1.1}
+.stats div span{font-size:14px;color:var(--muted)}
+.photo{position:relative}
+.photo img{width:100%;border-radius:28px;display:block;box-shadow:0 24px 60px rgba(30,80,140,.25);aspect-ratio:4/5;object-fit:cover;object-position:50% 35%}
+.photo::before{content:"";position:absolute;inset:-14px -14px 14px 14px;background:var(--sun);border-radius:30px;z-index:-1;opacity:.9}
+.badge{position:absolute;left:-18px;bottom:28px;background:#fff;border-radius:16px;padding:12px 18px;box-shadow:0 12px 30px rgba(0,0,0,.14);font-size:14px;font-weight:700}
+.badge small{display:block;color:var(--muted);font-weight:500}
+/* sections */
+section{padding:76px 0}
+.eyebrow{color:var(--blue);font-weight:800;font-size:14px;letter-spacing:1.5px;text-transform:uppercase}
+h2{font-size:clamp(28px,3.8vw,40px);line-height:1.2;margin:10px 0 16px;font-weight:800}
+.sub{color:var(--muted);max-width:640px;font-size:18px}
+.center{text-align:center}.center .sub{margin:0 auto}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:40px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:28px;transition:.2s}
+.card:hover{transform:translateY(-4px);box-shadow:0 16px 36px rgba(30,80,140,.12)}
+.ico{width:52px;height:52px;border-radius:14px;display:grid;place-items:center;font-size:26px;margin-bottom:16px;background:var(--sky)}
+.card:nth-child(2) .ico{background:var(--sun-l)}
+.card:nth-child(3) .ico{background:var(--mint)}
+.card h3{font-size:20px;margin-bottom:8px}
+.card p{color:var(--muted);font-size:16px}
+/* pain */
+.pain{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.pains{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:34px}
+.pains div{display:flex;gap:14px;background:var(--bg);border:1px solid var(--line);border-radius:16px;padding:18px 20px}
+.pains em{font-style:normal;font-size:22px}
+/* story */
+.story .wrap{display:grid;grid-template-columns:.8fr 1.2fr;gap:50px;align-items:start}
+.story img{width:100%;border-radius:24px;aspect-ratio:1/1;object-fit:cover;object-position:50% 30%;box-shadow:0 18px 44px rgba(30,80,140,.2)}
+.story p{margin-bottom:16px;color:#2c4156}
+.quote{background:var(--sun-l);border-left:5px solid var(--sun);padding:18px 22px;border-radius:0 16px 16px 0;font-weight:700;font-size:19px;margin:24px 0}
+.quote small{display:block;font-weight:500;color:#7a5500;margin-top:4px}
+/* steps */
+.steps{background:linear-gradient(180deg,#eaf4ff,#f6fbff)}
+.stepgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:40px}
+.step{background:#fff;border-radius:var(--r);padding:24px;border:1px solid var(--line);position:relative}
+.step .n{width:38px;height:38px;border-radius:50%;background:var(--blue);color:#fff;font-weight:800;display:grid;place-items:center;margin-bottom:14px}
+.step h3{font-size:18px;margin-bottom:6px}
+.step p{font-size:15px;color:var(--muted)}
+/* values */
+.values{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:38px}
+.val{text-align:center;background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:26px 16px}
+.val b{display:block;font-size:20px;color:var(--blue);margin-bottom:6px}
+.val span{font-size:15px;color:var(--muted)}
+/* faq */
+details{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px 22px;margin-top:12px}
+summary{cursor:pointer;font-weight:700;font-size:18px}
+details p{margin-top:10px;color:var(--muted)}
+.faq{max-width:780px;margin:0 auto}
+/* cta */
+.final{padding:30px 0 80px}
+.box{background:linear-gradient(135deg,#1e7bf2,#52a8ff);color:#fff;border-radius:32px;padding:56px 36px;text-align:center;position:relative;overflow:hidden}
+.box::after{content:"";position:absolute;width:300px;height:300px;border-radius:50%;background:rgba(255,184,28,.35);right:-80px;top:-100px}
+.box h2{color:#fff;position:relative}
+.box p{opacity:.95;max-width:560px;margin:0 auto 26px;position:relative}
+.box .btn{position:relative}
+footer{padding:28px 0 40px;text-align:center;color:var(--muted);font-size:14px}
+footer p{max-width:720px;margin:6px auto}
+/* responsive */
+@media(max-width:860px){
+  nav ul{display:none}
+  .hero .wrap,.story .wrap{grid-template-columns:1fr}
+  .photo{max-width:420px;margin:0 auto}
+  .grid3,.stepgrid,.values,.pains{grid-template-columns:1fr 1fr}
+  section{padding:56px 0}
+}
+@media(max-width:560px){
+  body{font-size:16px}
+  .grid3,.stepgrid,.values,.pains{grid-template-columns:1fr}
+  .badge{left:8px}
+  .btn{width:100%;text-align:center}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a href="#top" class="logo">Anh Hiếu <b>Thanh Tra</b></a>
+    <ul>
+      <li><a href="#giup">Việc giúp được</a></li>
+      <li><a href="#cau-chuyen">Câu chuyện</a></li>
+      <li><a href="#quy-trinh">Quy trình</a></li>
+      <li><a href="/bai-viet/">Bài viết</a></li>
+      <li><a href="#hoi-dap">Hỏi đáp</a></li>
+    </ul>
+    <a class="btn" href="mailto:hieutt79@gmail.com?subject=Nhờ anh Hiếu tư vấn hồ sơ">Liên hệ</a>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <div>
+      <span class="tag">⚖️ 22 năm làm nghề thanh tra</span>
+      <h1>Đơn đúng luật,<br>hồ sơ đúng quy trình,<br><span>quyền lợi được bảo vệ.</span></h1>
+      <p class="lead">Anh là Trần Trung Hiếu, mọi người hay gọi là <b>"anh Hiếu thanh tra"</b>. Hơn 22 năm giải quyết khiếu nại, tố cáo, kiến nghị, phản ánh. Anh giúp bạn hiểu pháp luật, soạn đơn rõ ràng, tìm đúng căn cứ để làm việc với cơ quan nhà nước.</p>
+      <div class="cta">
+        <a class="btn sun" href="mailto:hieutt79@gmail.com?subject=Nhờ anh Hiếu tư vấn hồ sơ">Gửi hồ sơ nhờ xem giúp</a>
+        <a class="btn ghost" href="#cau-chuyen">Tìm hiểu về anh</a>
+      </div>
+      <div class="stats">
+        <div><b>22+</b><span>năm trong nghề</span></div>
+        <div><b>Hàng trăm</b><span>hồ sơ đã xử lý</span></div>
+        <div><b>3 bằng</b><span>Luật · Kinh tế · Kỹ thuật</span></div>
+      </div>
+    </div>
+    <div class="photo">
+      <img src="hieu.jpg" alt="Anh Trần Trung Hiếu, thanh tra viên, cười tươi bên chiếc mô tô">
+      <div class="badge">Trần Trung Hiếu<small>Thanh tra viên · TP. Hồ Chí Minh</small></div>
+    </div>
+  </div>
+</header>
+
+<section class="pain">
+  <div class="wrap">
+    <div class="center">
+      <div class="eyebrow">Bạn có đang gặp</div>
+      <h2>Những chuyện rất quen với người đi khiếu nại</h2>
+    </div>
+    <div class="pains">
+      <div><em>😟</em><p>Không biết gửi đơn đến đâu, cơ quan nào có thẩm quyền giải quyết.</p></div>
+      <div><em>📄</em><p>Viết đơn dài nhưng thiếu căn cứ pháp luật, bị trả lại hoặc không được thụ lý.</p></div>
+      <div><em>⏳</em><p>Quyết định đã có nhưng không rõ có đúng luật không, có quyền khiếu nại tiếp không.</p></div>
+      <div><em>🔁</em><p>Luật thay đổi liên tục, không biết áp dụng văn bản nào tại thời điểm sự việc xảy ra.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="giup">
+  <div class="wrap">
+    <div class="center">
+      <div class="eyebrow">Anh giúp được gì</div>
+      <h2>Ba việc anh làm chắc tay nhất</h2>
+      <p class="sub">Làm từ kinh nghiệm thực tế, không hứa suông. Việc nào đúng luật thì làm, việc nào không đúng thì nói thẳng.</p>
+    </div>
+    <div class="grid3">
+      <div class="card">
+        <div class="ico">✍️</div>
+        <h3>Soạn đơn khiếu nại, tố cáo</h3>
+        <p>Hướng dẫn viết đơn rõ ý, đúng mẫu, nêu đúng yêu cầu và đúng căn cứ để cơ quan có cơ sở thụ lý.</p>
+      </div>
+      <div class="card">
+        <div class="ico">🔍</div>
+        <h3>Kiểm tra căn cứ pháp luật</h3>
+        <p>Đối chiếu văn bản đang có hiệu lực tại đúng thời điểm phát sinh sự việc. Chỉ ra chỗ quyết định hành chính chưa đúng luật.</p>
+      </div>
+      <div class="card">
+        <div class="ico">🗂️</div>
+        <h3>Hoàn thiện hồ sơ, quy trình</h3>
+        <p>Từ xử lý đơn, thụ lý, xác minh, đối thoại đến dự thảo quyết định. Cơ quan, cán bộ cũng có thể nhờ rà lại hồ sơ.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="story" id="cau-chuyen" style="background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+  <div class="wrap">
+    <img src="hieu.jpg" alt="Anh Hiếu thanh tra">
+    <div>
+      <div class="eyebrow">Câu chuyện</div>
+      <h2>Không có thầy, anh tự học để nắm chắc luật</h2>
+      <p>Sinh năm 1980, anh sống và làm việc tại TP. Hồ Chí Minh. Anh có ba tấm bằng: thạc sĩ kinh tế, cử nhân luật, kỹ sư ô tô. Chuyên môn thanh tra được rèn ở Thanh tra tỉnh Bà Rịa - Vũng Tàu, <b>"không có thầy, tự học và nghiên cứu"</b>.</p>
+      <p>Đường nghề không phẳng. Anh từng bị điều chuyển qua 5 vị trí, vì giữ đúng quan điểm pháp lý và nói thẳng, nói thật. Qua covid, qua áp lực sáp nhập chính quyền hai cấp, có lúc phải ngồi thiền một mình cho nhẹ đầu. Anh vẫn đứng đó, vẫn yêu nghề.</p>
+      <p>Đồng nghiệp hay xin file mẫu của anh, đọc chưa rõ thì nhờ anh chỉ. Đến nay anh đã kèm khoảng 10 người. Có những lần soạn đơn giúp dân, anh phát hiện quyết định giải quyết lần đầu trái luật. Anh không lấy một đồng của người dân.</p>
+      <div class="quote">"Thanh tra là tai mắt của trên, là người bạn của dưới."<small>Lời Bác Hồ, câu anh muốn được nhắc kèm tên mình</small></div>
+      <a class="btn" href="mailto:hieutt79@gmail.com?subject=Nhờ anh Hiếu tư vấn hồ sơ">Nhắn anh một dòng</a>
+    </div>
+  </div>
+</section>
+
+<section class="steps" id="quy-trinh">
+  <div class="wrap">
+    <div class="center">
+      <div class="eyebrow">Cách làm việc</div>
+      <h2>Bốn bước, rõ ràng, không vòng vo</h2>
+    </div>
+    <div class="stepgrid">
+      <div class="step"><div class="n">1</div><h3>Gửi thông tin</h3><p>Email tóm tắt sự việc và các giấy tờ liên quan. Che số CCCD, số điện thoại nếu chưa cần.</p></div>
+      <div class="step"><div class="n">2</div><h3>Xem hồ sơ</h3><p>Anh đọc, xác định đúng thẩm quyền, đúng thời điểm áp dụng pháp luật.</p></div>
+      <div class="step"><div class="n">3</div><h3>Chỉ hướng đi</h3><p>Nói rõ việc gì có căn cứ, việc gì thiếu căn cứ, nên gửi đơn ở đâu.</p></div>
+      <div class="step"><div class="n">4</div><h3>Hoàn thiện đơn</h3><p>Hướng dẫn chỉnh đơn, bổ sung chứng cứ để hồ sơ gọn và đủ điều kiện thụ lý.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap center">
+    <div class="eyebrow">Giá trị anh giữ</div>
+    <h2>Bốn chữ làm nên uy tín</h2>
+    <div class="values">
+      <div class="val"><b>Phụng công</b><span>Làm việc vì lợi ích chung, không vì lợi ích riêng.</span></div>
+      <div class="val"><b>Thủ pháp</b><span>Giữ đúng pháp luật, thượng tôn pháp luật.</span></div>
+      <div class="val"><b>Chí công</b><span>Công bằng với cả người dân và cơ quan.</span></div>
+      <div class="val"><b>Vô tư</b><span>Trung thực, nói thẳng, không thiên vị.</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="hoi-dap" style="padding-top:20px">
+  <div class="wrap">
+    <div class="center"><div class="eyebrow">Hỏi đáp nhanh</div><h2>Bạn có thể đang thắc mắc</h2></div>
+    <div class="faq">
+      <details><summary>Anh có nhận tiền khi giúp soạn đơn không?</summary><p>Với việc hướng dẫn, hỗ trợ công dân soạn đơn, anh không nhận tiền của dân. Đây là việc anh tự nguyện làm vì thấy địa phương có chỗ làm chưa đúng.</p></details>
+      <details><summary>Anh có đảm bảo thắng khiếu nại không?</summary><p>Không ai đảm bảo được kết quả. Anh chỉ giúp bạn đi đúng đường: đúng thẩm quyền, đúng căn cứ, đúng quy trình. Nếu hồ sơ yếu, anh nói thẳng để bạn khỏi mất công vô ích.</p></details>
+      <details><summary>Những loại việc nào anh hỗ trợ?</summary><p>Khiếu nại, tố cáo, kiến nghị, phản ánh về quyết định hành chính, đặc biệt các việc liên quan đất đai, bồi thường, tái định cư. Cán bộ cơ sở cần rà lại căn cứ pháp luật và quy trình hồ sơ cũng có thể liên hệ.</p></details>
+      <details><summary>Thông tin của tôi có được giữ kín không?</summary><p>Anh giữ kín thông tin, không đăng tên người dân ở bất cứ đâu. Bạn nên che số giấy tờ cá nhân khi gửi lần đầu.</p></details>
+    </div>
+  </div>
+</section>
+
+<section id="bai-viet" style="padding-top:20px">
+  <div class="wrap">
+    <div class="center">
+      <div class="eyebrow">Bài viết mới</div>
+      <h2>Chia sẻ từ kinh nghiệm thực tế</h2>
+    </div>
+    <div class="grid3" style="grid-template-columns:repeat(auto-fit,minmax(260px,1fr))">
+      <!-- BAI-MOI-O-DAY: dán thẻ bài mới lên trên cùng, giữ tối đa 3 bài -->
+      <a class="card" href="/bai-viet/gui-ho-so-nho-xem-giup.html">
+        <div class="ico">📩</div>
+        <h3>Gửi hồ sơ nhờ anh Hiếu xem giúp: cần chuẩn bị gì?</h3>
+        <p>Bốn bước gửi hồ sơ nhanh gọn: tóm tắt sự việc, giấy tờ cần có, cách che thông tin cá nhân.</p>
+      </a>
+    </div>
+    <p class="center" style="margin-top:28px"><a class="btn ghost" href="/bai-viet/">Xem tất cả bài viết</a></p>
+  </div>
+</section>
+
+<section class="final">
+  <div class="wrap">
+    <div class="box">
+      <h2>Có một hồ sơ đang vướng? Gửi anh xem thử.</h2>
+      <p>Chỉ cần vài dòng tóm tắt sự việc. Anh đọc và phản hồi bạn hướng đi phù hợp.</p>
+      <div class="cta" style="justify-content:center;position:relative"><a class="btn sun" href="mailto:hieutt79@gmail.com?subject=Nhờ anh Hiếu tư vấn hồ sơ">✉️ hieutt79@gmail.com</a></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p><b>Trần Trung Hiếu</b> · Thanh tra viên · TP. Hồ Chí Minh · hieutt79@gmail.com</p>
+    <p>Nội dung trên trang là quan điểm và chia sẻ cá nhân, không đại diện cho ý kiến chính thức của cơ quan nơi anh công tác. Thông tin mang tính hướng dẫn, không thay thế văn bản pháp luật hiện hành.</p>
+  </div>
+</footer>
+
+</body>
+</html>
